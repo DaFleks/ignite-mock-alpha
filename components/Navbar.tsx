@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
   return (
     <>
-      <nav className="h-[75px] shadow fixed w-full bg-white">
+      <nav className="h-[75px] shadow fixed w-full bg-white z-50">
         <div className="h-full w-2/3 mx-auto flex items-center p-4">
           <Link href="#" className="flex items-center gap-2 font-semibold text-2xl">
             <FlameIcon className="space-x-4" />
